@@ -2,34 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64573c3c-6d81-4cc2-837e-c5decddf1291" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/Specification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/ValueObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/entity/EntityId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/repository/Deletable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/repository/IdentifierGenerable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/repository/Storable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/RuntimeIOException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/log/LogLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/log/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/log/MyLogLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/log/log4j/LogLevelOnLog4J.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/log/log4j/LoggerByLog4J.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/textfile/DefaultTextFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/textfile/DefaultTextFileWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/textfile/TextFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/textfile/TextFileWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/queue/FileQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBases.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBases.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBases.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/Specification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/ValueObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/entity/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/entity/EntityId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/repository/Deletable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/repository/IdentifierGenerable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/repository/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/repository/Storable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/RuntimeIOException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/log/LogLevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/log/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/log/MyLogLevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/log/log4j/LogLevelOnLog4J.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/log/log4j/LoggerByLog4J.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/textfile/DefaultTextFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/textfile/DefaultTextFileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/textfile/TextFileReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/io/textfile/TextFileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/queue/FileQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/queue/Queue.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,7 +41,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/repository/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/repository/IdentifierGenerable.java" />
         <option value="$PROJECT_DIR$/src/main/java/jp/personal/gi/java/bases/ddd/frame/repository/Deletable.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -132,32 +144,6 @@
               <item name="JavaBases" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaBases" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaBases" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBases" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBases" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBases" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBases" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBases" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBases" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBases" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bases" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -170,7 +156,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548426780467" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548426995961" />
     <property name="project.structure.last.edited" value="プロジェクト" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -468,6 +454,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
