@@ -1,15 +1,14 @@
 package jp.personal.gi.java.bases.ddd.frame;
 
-import jp.personal.gi.ddd_stockmanagement.domain.support.entity.Entity;
-
+import java.util.Optional;
 import java.util.function.Predicate;
 
 @FunctionalInterface
-public interface Specification<T extends Entity> {
-    boolean isSatisfiedBy(T entity);
+public interface Specification<T> {
+    boolean isSatisfiedBy(T instance);
 
-    default boolean notSatisfiedBy(T entity) {
-        return !isSatisfiedBy(entity);
+    default boolean notSatisfiedBy(T instance) {
+        return !isSatisfiedBy(instance);
     }
 
     default Specification<T> not() {
@@ -17,26 +16,32 @@ public interface Specification<T extends Entity> {
     }
 
     default Specification<T> and(Specification<T> otherSpecification) {
-        return entity -> this.isSatisfiedBy(entity)
-                && otherSpecification.isSatisfiedBy(entity);
+        return instance -> this.isSatisfiedBy(instance)
+                && otherSpecification.isSatisfiedBy(instance);
     }
 
     default Specification<T> andNot(Specification<T> otherSpecification) {
-        return entity -> this.isSatisfiedBy(entity)
-                && otherSpecification.notSatisfiedBy(entity);
+        return instance -> this.isSatisfiedBy(instance)
+                && otherSpecification.notSatisfiedBy(instance);
     }
 
     default Specification<T> or(Specification<T> otherSpecification) {
-        return entity -> this.isSatisfiedBy(entity)
-                || otherSpecification.isSatisfiedBy(entity);
+        return instance -> this.isSatisfiedBy(instance)
+                || otherSpecification.isSatisfiedBy(instance);
     }
 
     default Specification<T> orNot(Specification<T> otherSpecification) {
-        return entity -> this.isSatisfiedBy(entity)
-                || otherSpecification.notSatisfiedBy(entity);
+        return instance -> this.isSatisfiedBy(instance)
+                || otherSpecification.notSatisfiedBy(instance);
     }
 
     default Predicate<T> toPredicate() {
         return this::isSatisfiedBy;
+    }
+
+    default Optional<T> satisfy(T instance) {
+        return this.isSatisfiedBy(instance)
+                ? Optional.of(instance)
+                : Optional.empty();
     }
 }
